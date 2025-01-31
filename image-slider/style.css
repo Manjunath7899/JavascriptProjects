@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.conatiner {
+  height: 100vh;
+  width: 100vw;
+}
+
+.image-slider-container {
+  display: flex;
+  min-width: 100vw;
+  height: 500px;
+}
+
+.dot-btn {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 50%;
+  left: 15%;
+}
+
+.dot-btn span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.btn-prev, .btn-next {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-prev i, .btn-next i{
+  font-size: 50px;
+  color: #fff;
+}
+
+.btn-prev i {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+
+.btn-next i {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
